@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//c/Users/user/Documents/GitHub/**)",
+      "Bash(composer create-project:*)",
+      "Bash(mv yoprint_temp/* yoprint/)",
+      "Bash(mv yoprint_temp/.* yoprint/)",
+      "Bash(php artisan:*)",
+      "Bash(composer require:*)",
+      "Bash(curl -s http://localhost:8000/api/uploads)",
+      "Bash(git add:*)",
+      "Bash(git commit -m ':*)"
+    ]
+  }
+}
